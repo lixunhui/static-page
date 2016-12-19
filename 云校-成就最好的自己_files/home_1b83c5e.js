@@ -1,0 +1,1 @@
+define("home/video/video",function(e,i,o){o.exports=function(){$(function(){$("#play").click(function(e){e.preventDefault(),$("#video-wrap").fadeIn(100),videojs("#video").play()}),$("#close").click(function(e){e.preventDefault(),videojs("#video").pause(),$("#video-wrap").fadeOut(100)})})}});
